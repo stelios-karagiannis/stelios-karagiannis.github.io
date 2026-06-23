@@ -68,15 +68,16 @@
   .site-nav a.active{font-weight:700;color:var(--accent)}
 
   .page{max-width:1100px;margin:0 auto;padding:40px 24px;display:grid;
-    grid-template-columns:260px 1fr;gap:64px;align-items:start}
+    grid-template-columns:290px 1fr;gap:60px;align-items:start}
 
   .sidebar{text-align:left}
   .sidebar img{width:200px;height:200px;object-fit:cover;border-radius:50%;display:block;margin-bottom:20px;box-shadow:0 0 0 1px var(--rule), 0 6px 18px rgba(0,0,0,.10);transition:transform .35s ease;cursor:default}
   .sidebar img:hover{transform:scale(1.02)}
   .sidebar h2{font-size:23px;font-weight:700;line-height:1.15;margin-bottom:4px;letter-spacing:-.01em}
-  .sidebar .role{color:var(--ink);font-size:16px;font-weight:600;margin-bottom:14px}
+  .sidebar .role{color:var(--ink);font-size:16px;font-weight:600;margin-bottom:12px}
   .sidebar .affil{margin-bottom:16px}
-  .sidebar .affil p{font-size:14.5px;line-height:1.45;color:var(--muted);margin:0}
+  .sidebar .affil p{font-size:13.5px;line-height:1.5;color:var(--muted);margin:0;white-space:nowrap}
+  .sidebar .affil p.org{color:var(--ink);font-weight:600;font-size:14.5px;margin-bottom:1px}
   .sidebar ul{list-style:none}
   .sidebar li{padding:4px 0;font-size:15px}
   .sidebar li a{font-size:15px}
@@ -114,6 +115,7 @@
     .sidebar{text-align:center}
     .sidebar img{margin:0 auto 16px}
     .sidebar li{justify-content:center}
+    .sidebar .affil p{white-space:normal}
     .site-nav{gap:16px}
   }
   :focus-visible{outline:2px solid var(--link);outline-offset:2px}
@@ -129,6 +131,7 @@
     <nav class="site-nav">
       <a href="#" data-view="home">Home</a>
       <a href="#" data-view="research">Research</a>
+      <a href="#" data-view="policy">Evidence for policy</a>
       <a href="#" data-view="wip">Work in progress</a>
       <a href="cv.pdf" target="_blank" rel="noopener">CV</a>
     </nav>
@@ -142,7 +145,7 @@
     <h2>Stelios Karagiannis</h2>
     <div class="role">Economist</div>
     <div class="affil">
-      <p>European Commission</p>
+      <p class="org">European Commission</p>
       <p>DG Employment, Social Affairs &amp; Inclusion (EMPL)</p>
     </div>
   </aside>
@@ -173,23 +176,67 @@
       <li>Finance and Economic Growth: Financing Structure and Non-linear Impact. <em>Journal of Macroeconomics</em>, 2019, 62 (with P. Benczúr &amp; V. Kvedaras). <a href="https://doi.org/10.1016/j.jmacro.2018.08.001" target="_blank" rel="noopener">doi.org/10.1016/j.jmacro.2018.08.001</a></li>
       <li>Inequality and Growth in the United States: Why Physical and Human Capital Matter. <em>Economic Inquiry</em>, 2018, 56(1): 572&ndash;619 (with N. Benos). <a href="https://doi.org/10.1111/ecin.12475" target="_blank" rel="noopener">doi.org/10.1111/ecin.12475</a></li>
       <li>Do Education Quality and Spillovers Matter? Evidence on Human Capital and Productivity in Greece. <em>Economic Modelling</em>, 2016, 54(C): 563&ndash;573 (with N. Benos). <a href="https://doi.org/10.1016/j.econmod.2016.01.015" target="_blank" rel="noopener">doi.org/10.1016/j.econmod.2016.01.015</a></li>
-      <li>Proximity and Growth Spillovers in European Regions: The Role of Geographical, Economic and Technological Linkages. <em>Journal of Macroeconomics</em>, 2015, 43: 124&ndash;139 (with N. Benos &amp; S. Karkalakos).</li>
-      <li>Are Unleaded Gasoline and Diesel Price Adjustments Symmetric? A Comparison of the Four Largest EU Retail Fuel Markets. <em>Economic Modelling</em>, 2015, 48: 281&ndash;291 (with Y. Panagopoulos &amp; P. Vlamis).</li>
+      <li>Proximity and Growth Spillovers in European Regions: The Role of Geographical, Economic and Technological Linkages. <em>Journal of Macroeconomics</em>, 2015, 43: 124&ndash;139 (with N. Benos &amp; S. Karkalakos). <a href="https://doi.org/10.1016/j.jmacro.2014.10.003" target="_blank" rel="noopener">doi.org/10.1016/j.jmacro.2014.10.003</a></li>
+      <li>Are Unleaded Gasoline and Diesel Price Adjustments Symmetric? A Comparison of the Four Largest EU Retail Fuel Markets. <em>Economic Modelling</em>, 2015, 48: 281&ndash;291 (with Y. Panagopoulos &amp; P. Vlamis). <a href="https://doi.org/10.1016/j.econmod.2014.11.003" target="_blank" rel="noopener">doi.org/10.1016/j.econmod.2014.11.003</a></li>
       <li>CO&#8322; Emissions and Income Dynamics: What Does the Global Evidence Tell Us? <em>Environmental and Resource Economics</em>, 2013, 54(1): 101&ndash;125 (with T. Bassetti &amp; N. Benos). <a href="https://doi.org/10.1007/s10640-012-9585-z" target="_blank" rel="noopener">doi.org/10.1007/s10640-012-9585-z</a></li>
       <li>Modelling Banks&rsquo; Lending Behaviour in a Capital Regulated Framework. <em>Metroeconomica</em>, 2012, 63(2): 389&ndash;416 (with Y. Panagopoulos &amp; A. Spilliotis). <a href="https://doi.org/10.1111/j.1467-999X.2011.04144.x" target="_blank" rel="noopener">doi.org/10.1111/j.1467-999X.2011.04144.x</a></li>
       <li>Symmetric or Asymmetric Interest Rate Adjustments? Evidence from Southeastern Europe. <em>Review of Development Economics</em>, 2011, 15(2): 370&ndash;385 (with Y. Panagopoulos &amp; P. Vlamis). <a href="https://doi.org/10.1111/j.1467-9361.2011.00614.x" target="_blank" rel="noopener">doi.org/10.1111/j.1467-9361.2011.00614.x</a></li>
       <li>Interest Rate Pass-Through in Europe and the US: Monetary Policy after the Financial Crisis. <em>Journal of Policy Modeling</em>, 2010, 32(3): 323&ndash;338 (with Y. Panagopoulos &amp; P. Vlamis). <a href="https://doi.org/10.1016/j.jpolmod.2010.02.006" target="_blank" rel="noopener">doi.org/10.1016/j.jpolmod.2010.02.006</a></li>
+      <li>Recent Evidence on Efficiency in Southern European Banking. <em>Studies in Economics and Finance</em>, 2009, 26(2): 95&ndash;112. <a href="https://doi.org/10.1108/10867370910963037" target="_blank" rel="noopener">doi.org/10.1108/10867370910963037</a></li>
       <li>Convergence and Economic Performance in Greece: Evidence at Regional and Prefecture Level. <em>Review of Urban and Regional Development Studies</em>, 2008, 20(1): 52&ndash;69 (with N. Benos). <a href="https://doi.org/10.1111/j.1467-940X.2008.00141.x" target="_blank" rel="noopener">doi.org/10.1111/j.1467-940X.2008.00141.x</a></li>
+      <li>The Knowledge-Based Economy, Convergence and Economic Growth: Evidence from the European Union. <em>The Journal of Economic Asymmetries</em>, 2007, 4(2): 65&ndash;85. <a href="https://www.sciencedirect.com/science/article/pii/S170349491530342X" target="_blank" rel="noopener">ScienceDirect</a></li>
     </ul>
 
     <h3 class="subhead">Contributions in refereed books &amp; collective volumes</h3>
     <ul class="bullets">
-      <li>The Role of Human Capital in Economic Growth: Evidence from Greek Regions, in N. Salvadori (ed.), <em>Institutional and Social Dynamics of Growth and Distribution</em>. Cheltenham: Edward Elgar, 2009.</li>
-      <li>Do Interest Rates Affect Inflation? Evidence from South Eastern European Economies (with P. Vlamis &amp; Y. Panagopoulos), in N. Baltas &amp; J. Brox (eds.), <em>The Global Economics of a Changing Environment</em>. North Waterloo Academic Press: Canada, 2009.</li>
-      <li>Impact of EU&rsquo;s Structural Policies in Greece, 1989&ndash;2006. Study for the Hellenic Ministry of Economy &amp; Finance, Athens, 2005.</li>
+      <li>The Role of Human Capital in Economic Growth: Evidence from Greek Regions (with N. Benos), in N. Salvadori (ed.), <em><a href="https://www.e-elgar.com/shop/usd/institutional-and-social-dynamics-of-growth-and-distribution-9781848442283.html" target="_blank" rel="noopener">Institutional and Social Dynamics of Growth and Distribution</a></em>, ch. 7. Cheltenham: Edward Elgar, 2010.</li>
+      <li>Do Interest Rates Affect Inflation? Evidence from South Eastern European Economies (with P. Vlamis &amp; Y. Panagopoulos), in N. Baltas &amp; J. Brox (eds.), <em>The Global Economics of a Changing Environment</em>, ch. 6, pp. 71&ndash;83. North Waterloo Academic Press: Canada, 2009.</li>
+      <li>The Basel II Influence on the Money Supply Process: A Comparative Analysis of the Eurozone and the United States (with Y. Panagopoulos &amp; A. Spiliotis), in C. Gnos &amp; L.-P. Rochon (eds.), <em><a href="https://www.e-elgar.com/shop/usd/credit-money-and-macroeconomic-policy-9781848440678.html" target="_blank" rel="noopener">Credit, Money and Macroeconomic Policy</a></em>, ch. 9. Cheltenham: Edward Elgar, 2011.</li>
+    </ul>
+
+    <h3 class="subhead">Discussion papers</h3>
+    <ul class="bullets">
+      <li><a href="https://econwp.uom.gr/pdf/dp072026.pdf" target="_blank" rel="noopener">Enduring Legacies of Forced Migration: Refugees and Health Behavior in 21st-Century Greece</a> (with N. Benos, A. Litina &amp; S. Tsitou). University of Macedonia, Department of Economics Discussion Paper No. 07/2026.</li>
+      <li><a href="https://mpra.ub.uni-muenchen.de/118748/1/MPRA_paper_118748.pdf" target="_blank" rel="noopener">Geography, Land Ownership and Literacy: Historical Evidence from Greek Regions</a> (with N. Benos &amp; S. Tsitou). MPRA Paper No. 118748, 2022.</li>
+      <li><a href="https://icmaif.soc.uoc.gr/Year/2013/papers/paper_2_131.pdf" target="_blank" rel="noopener">Heart Mortality and Urbanization: The Role of Unobserved Predictors</a> (with T. Bassetti &amp; N. Benos), 2013.</li>
+      <li><a href="https://www2.aueb.gr/conferences/Crete2011/more%20recent/Benos.pdf" target="_blank" rel="noopener">Environmental Quality and Income Dynamics: What Does the Global Evidence Tell Us?</a> (with T. Bassetti &amp; N. Benos), 2011.</li>
+      <li><a href="https://researchonline.lse.ac.uk/id/eprint/29168/1/GreeSE_No39.pdf" target="_blank" rel="noopener">Symmetric or Asymmetric Interest Rate Adjustments? Evidence from Greece, Bulgaria and Slovenia</a> (with Y. Panagopoulos &amp; P. Vlamis). GreeSE Paper No. 39, Hellenic Observatory, LSE, 2010.</li>
+      <li><a href="https://www.researchgate.net/publication/228913231_LIFE_EXPECTANCY_EDUCATION_AND_THE_ENVIRONMENT_DYNAMICS_AND_POLICY_IMPLICATIONS" target="_blank" rel="noopener">Life Expectancy, Education and the Environment: Dynamics and Policy Implications</a> (with T. Bassetti &amp; N. Benos), 2010.</li>
+      <li><a href="https://www.kepe.gr/en/research/recent-publications/discussion-papers/105-st-karagiannis-and-n-benos-the-role-of-human-capital-in-economic-growth-evidence-from-greek-regions-2009/" target="_blank" rel="noopener">The Role of Human Capital in Economic Growth: Evidence from Greek Regions</a> (with N. Benos). KEPE Discussion Paper No. 105, Athens, 2009.</li>
+      <li><a href="https://www.kepe.gr/en/research/recent-publications/discussion-papers/102-st-karagiannis-y-panagopoulos-and-a-spiliotis-modeling-banks-lending-behavior-in-a-capital-regulated-framework-2009/" target="_blank" rel="noopener">Modeling Banks&rsquo; Lending Behaviour in a Capital Regulated Framework</a> (with Y. Panagopoulos &amp; A. Spiliotis). KEPE Discussion Paper No. 102, Athens, 2009.</li>
+      <li><a href="https://www.kepe.gr/en/research/recent-publications/discussion-papers/96-n-benos-and-st-karagiannis-growth-empirics-evidence-from-greek-regions-2007/" target="_blank" rel="noopener">Growth Empirics: Evidence from Greek Regions</a> (with N. Benos). KEPE Discussion Paper No. 96, Athens, 2007.</li>
+      <li><a href="https://www.kepe.gr/en/research/recent-publications/discussion-papers/95-n-benos-and-st-karagiannis-convergence-and-economic-performance-in-greece-new-evidence-at-regional-and-prefecture-level-2007/" target="_blank" rel="noopener">Convergence and Economic Performance in Greece: New Evidence at Regional and Prefecture Level</a> (with N. Benos). KEPE Discussion Paper No. 95, Athens, 2007.</li>
+      <li><a href="https://www.kepe.gr/en/research/recent-publications/discussion-papers/91-st-karagiannis-the-knowledge-based-economy-convergence-and-economic-growth-evidence-from-the-european-union-2007/" target="_blank" rel="noopener">The Knowledge-Based Economy, Convergence and Economic Growth: Evidence from the European Union</a>. KEPE Discussion Paper No. 91, Athens, 2007.</li>
     </ul>
 
     <p class="small">Full publication record on <a href="https://scholar.google.com/citations?hl=en&user=Bflcg7YAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener">Google Scholar</a> and <a href="https://ideas.repec.org/f/pka777.html" target="_blank" rel="noopener">RePEc</a>.</p>
+    </section>
+
+    <section data-view-content="policy" hidden>
+      <h2 id="policy">Evidence for policy</h2>
+      <p class="small" style="margin-top:-4px;margin-bottom:22px">Selected policy reports and studies for international and national organisations.</p>
+      <ul class="bullets">
+        <li><a href="https://doi.org/10.2816/6707546" target="_blank" rel="noopener">Bridging the Skills Gap: Embracing Digital Transformation — Key Findings from the European Skills and Jobs Survey in the Western Balkans</a> (with E. Jansova &amp; P. Stronkowski). European Training Foundation, 2025.</li>
+        <li><a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC118959" target="_blank" rel="noopener">Beyond Averages — Fairness in an Economy that Works for People</a> (collective JRC report; contributing author, &ldquo;Drivers of Income Inequality: Technological Change&rdquo;). European Commission, JRC, 2020. doi.org/10.2760/0945</li>
+        <li><a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC116027" target="_blank" rel="noopener">The Median Voter Takes it All: Preferences for Redistribution and Income Inequality in the EU-28</a> (with M. Colagrossi &amp; R. Raab). JRC Working Papers in Economics and Finance 2019/6, European Commission, JRC, 2019. doi.org/10.2760/797251</li>
+        <li><a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC112623" target="_blank" rel="noopener">Innovation and Inequality in the EU: For Better or For Worse?</a> (with C. De Palo &amp; R. Raab). JRC Science for Policy Briefs Series, European Commission, JRC, 2018. doi.org/10.2760/365700</li>
+        <li><a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC107909" target="_blank" rel="noopener">Finance and Economic Growth: Financing Structure and Non-linear Impact</a> (with P. Benczúr &amp; V. Kvedaras). JRC Working Papers in Economics and Finance 2017/7, European Commission, JRC, 2017. doi.org/10.2760/063349</li>
+        <li><a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC106087" target="_blank" rel="noopener">What Makes a Fair Society? Insights and Evidence</a> (collective JRC report). European Commission, JRC, 2017.</li>
+        <li><a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC103421" target="_blank" rel="noopener">Financial Development and Economic Growth: A European Perspective</a> (with P. Benczúr &amp; V. Kvedaras). Report for DG FISMA, European Commission, JRC, 2016.</li>
+        <li><a href="https://www.kepe.gr/en/research/studies-and-reports-for-ministries-and-other-bodies/carried-our-at-the-request-of-the-civil-service/no-63-proposals-to-the-greek-government-for-a-strategic-growth-plan-in-greek/" target="_blank" rel="noopener">Proposals to the Greek Government for a Strategic Growth Plan</a>. Author of the chapters &ldquo;Research &amp; Development: A Strategy for Greece&rdquo; and &ldquo;The Effects of Human Capital in the Macroeconomy: Implications and Policy Suggestions&rdquo;. KEPE, Hellenic Ministry of Finance &amp; Ministry of Competitiveness and Development, 2016. [in Greek]</li>
+        <li><a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC96913" target="_blank" rel="noopener">Invoicing Currencies in International Trade: Drivers and Obstacles to the Use of the Euro</a> (with S. Langedijk &amp; E. Papanagiotou). European Commission, JRC, 2015. doi.org/10.2788/118704</li>
+        <li><a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2014/09/measurement-and-reduction-of-administrative-burdens-in-greece_g1g42695/9789264213524-en.pdf" target="_blank" rel="noopener">Measurement and Reduction of Administrative Burdens in 13 Sectors in Greece</a>. OECD, Athens, 2014.</li>
+        <li><a href="https://www.kepe.gr/en/research/studies-and-reports-for-ministries-and-other-bodies/carried-our-at-the-request-of-the-civil-service/no-58-investment-opportunities-in-greece-the-path-to-recovery-and-sustainable-growth-in-greek/" target="_blank" rel="noopener">Investment Opportunities in Greece: The Path to Recovery and Sustainable Growth</a> (collective study). KEPE Report No. 58, Athens, 2013. [in Greek]</li>
+        <li><a href="https://kepe.webnut.gr/wp-content/uploads/2013/06/ISSUE_21eng.pdf#page=21" target="_blank" rel="noopener">Forecasting Basic Macroeconomic Variables Using a Small-Scale Macro-Econometric Model</a>. <em>Greek Economic Outlook</em>, KEPE, No. 21, June 2013, p. 20.</li>
+        <li><a href="https://www.kepe.gr/wp-content/uploads/2011/10/Issue_16en.pdf" target="_blank" rel="noopener">Human Capital and Economic Growth in Greece: Empirical Analysis and Policy Recommendations</a>. <em>Greek Economic Outlook</em>, KEPE, No. 16, October 2011, pp. 65&ndash;72.</li>
+        <li><a href="https://www.kepe.gr/en/research/recent-publications/greek-economic-outlook/issue-no-14/" target="_blank" rel="noopener">Price Differentials in Greece and the Eurozone: Convergence or Divergence?</a> <em>Greek Economic Outlook</em>, KEPE, No. 14, January 2011, pp. 42&ndash;44.</li>
+        <li><a href="https://www.kepe.gr/en/research/studies-and-reports-for-ministries-and-other-bodies/carried-our-at-the-request-of-the-civil-service/no-56-investment-opportunities-in-greece-in-greek/" target="_blank" rel="noopener">Investment Opportunities in Greece</a> (collective study). KEPE Report No. 56, Athens, 2011. [in Greek]</li>
+        <li>Competitiveness in the Greek Economy: The Information &amp; Communications Technology (ICT) Sector. Study for the Hellenic Ministry of Economy, Competitiveness &amp; Shipping, 2010.</li>
+        <li><a href="https://www.kepe.gr/en/research/recent-publications/reports/no-62-the-greek-commercial-fleet/" target="_blank" rel="noopener">The Greek Commercial Fleet</a> (with S. Spathi &amp; N. Georgikopoulos). KEPE Report No. 62, Athens, 2010. [in Greek]</li>
+        <li><a href="https://www.kepe.gr/en/research/studies-and-reports-for-ministries-and-other-bodies/carried-our-at-the-request-of-the-civil-service/no-54-the-extent-of-competition-in-the-greek-economy-in-greek/" target="_blank" rel="noopener">The Extent of Competition in the Greek Economy</a> (collective study). KEPE Report No. 54, Athens, 2010. [in Greek]</li>
+        <li><a href="https://www.kepe.gr/en/research/recent-publications/reports/no-45-europe-and-the-international-economic-environment-in-2005-recent-developments-and-outlook/" target="_blank" rel="noopener">Europe and the International Economic Environment in 2005: Recent Developments and Outlook</a> (with S. Savva-Balfoussias, E. Athanassiou &amp; K. Tsouma). KEPE Report No. 45, Athens, 2006.</li>
+        <li><a href="https://www.kepe.gr/en/research/studies-and-reports-for-ministries-and-other-bodies/externally-funded-projects/no-59-the-ramifications-of-eus-1989-2006-structural-policies-in-greece-in-greek/" target="_blank" rel="noopener">The Ramifications of EU&rsquo;s 1989&ndash;2006 Structural Policies in Greece</a> (member of research team; coordinated by S. Savva-Balfoussia). KEPE Report No. 59, Athens, 2005. [in Greek]</li>
+      </ul>
     </section>
 
     <section data-view-content="wip" hidden>
